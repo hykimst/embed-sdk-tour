@@ -1,0 +1,11 @@
+{
+  "name": "typescript",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "postinstall": "npx update-mpsdk-types"
+  },
+  "dependencies": {
+    "@matterport/sdk": "^1.6.0"
+  }
+}
