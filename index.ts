@@ -2,7 +2,7 @@
 import { setupSdk } from '@matterport/sdk';
 
 // Connect MPSDK to your app div
-const app = document.querySelector('#app');
+const app = document.querySelector('#app') as HTMLElement;
 const div = document.getElementById('button-container');
 const naviBtn = document.querySelector('#navi-btn');
 
@@ -207,3 +207,5 @@ const main = async () => {
   getRoomData();
 };
 main().catch((err) => console.error('MAIN ERROR', err));
+
+export {};

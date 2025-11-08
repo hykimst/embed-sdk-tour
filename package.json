@@ -2,10 +2,12 @@
   "name": "typescript",
   "version": "0.0.0",
   "private": true,
-  "script":{
-    "start":"node start"
+  "script": {
+    "start": "ts-node index.ts"
   },
   "dependencies": {
-    "@matterport/sdk": "^1.6.0"
+    "@matterport/sdk": "^1.6.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
   }
 }
